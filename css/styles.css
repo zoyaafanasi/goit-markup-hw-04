@@ -105,6 +105,15 @@ img {
   background-color: #2e2f42;
   margin-left: auto;
   margin-right: auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .title {
@@ -181,6 +190,14 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.feature-svg {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
 .feature-ul .feature-text {
   font-size: 16px;
   line-height: 1.5;
@@ -233,6 +250,8 @@ img {
 .ourteam-li {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .teamcard {
   padding: 32px 0;
