@@ -261,6 +261,19 @@ img {
 .teamcard {
   padding: 32px 0;
 }
+.sociallinks-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.sociallinks-li {
+  width: 40px;
+  height: 40px;
+}
+.link {
+  width: 100%;
+  height: 100%;
+}
 .ourteam-title {
   margin-bottom: 72px;
   font-weight: 700;
