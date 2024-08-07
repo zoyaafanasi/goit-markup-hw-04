@@ -437,6 +437,7 @@ img {
 .sociallinks-lifooter {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-linkfooter {
   width: 100%;
@@ -447,7 +448,12 @@ img {
   align-items: center;
   justify-content: center;
 }
-.social-linkfooter.hover,
-.social-linkfooter.focus {
+.social-linkfooter:hover {
   background-color: #31d0aa;
+}
+.social-linkfooter:focus {
+  background-color: #31d0aa;
+}
+.footer-svg {
+  fill: #f4f4fd;
 }
